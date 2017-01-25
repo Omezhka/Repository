@@ -2,10 +2,21 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <!--<meta http-equiv="x-ua-compatible" content="ie=edge"> -->
         <title></title>
+      <!--  <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!--  <link rel="apple-touch-icon" href="apple-touch-icon.png"> -->
+        <!-- Place favicon.ico in the root directory -->
+
+    <!--    <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> -->
     </head>
 
-   <style>
+    <style>
     * {
         margin: 0;
         padding: 0;
@@ -139,11 +150,14 @@
     }
 
     .icons{
-        padding: 10px;
+      padding: 10px;
+    margin-left: 68px;
     }
-.back,.play,.next{
+.back img,.play img,.next img{
     float: left;
-    text-align: center;
+    width: 50px;
+    height: 50px;
+
 }
 
     </style>
@@ -186,13 +200,13 @@
     </section>
     <section class="icons">
         <section class="back">
-            back
+            <img src="1.png">
     </section>
     <section class="play">
-        play
+        <img src="2.png">
 </section>
 <section class="next">
-    next
+    <img src="3.png">
 </section> 
     </section>
 </section>
@@ -303,6 +317,5 @@
 
 <button name="more">Загрузить еще...</button>
 
-	</body>
+    </body>
 </html>
-
